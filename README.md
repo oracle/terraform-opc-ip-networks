@@ -18,3 +18,10 @@ module "ip_networks" {
   tags                = [ "tag1", "tag2" ]
 }
 ```
+
+License
+-------
+
+Licensed under the [Universal Permissive License v 1.0](LICENSE.md)
+
+Copyright © 2017 Oracle and/or its affiliates. All rights reserved.
