@@ -10,7 +10,7 @@ Usage
 
 ```tf
 module "ip_networks" {
-  source              = "https://github.com/oracle/terraform-opc-ip-network"
+  source              = "oracle/ip-networks/opc"
   ip_exchange_name    = "example-exchange"
   subnet_cidrs        = ["172.16.1.0/24", "172.16.2.0/24", "172.16.3.0/24"]
   subnet_names        = ["example-subnet1", "example-subnet2", "example-subnet3"]
