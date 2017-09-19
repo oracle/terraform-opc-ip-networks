@@ -14,7 +14,7 @@ module "ip_networks" {
   ip_exchange_name    = "example-exchange"
   subnet_cidrs        = ["172.16.1.0/24", "172.16.2.0/24", "172.16.3.0/24"]
   subnet_names        = ["example-subnet1", "example-subnet2", "example-subnet3"]
-  public_natp_subnets = ["example-subnet1"]
+  public_napt_subnets = ["example-subnet1"]
   tags                = [ "tag1", "tag2" ]
 }
 ```
