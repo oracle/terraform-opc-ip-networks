@@ -1,7 +1,7 @@
-Create IP Networks on Oracle Infrastructure Cloud OPC
-=====================================================
+Create IP Networks on Oracle Infrastructure Cloud Classic
+=========================================================
 
-This Terraform module creates multiple Oracle Infrastructure Cloud OPC IP Networks, interconnected by an single IP Network Exchange.
+This Terraform module creates multiple Oracle Infrastructure Compute **Classic** (OPC) IP Networks, interconnected by an single IP Network Exchange.
 
 Refer to the [Oracle Compute Cloud IP Networks documentation](https://docs.oracle.com/en/cloud/iaas/compute-iaas-cloud/stcsg/ip-networks.html) for more details on using IP Networks.
 
@@ -24,4 +24,4 @@ License
 
 Licensed under the [Universal Permissive License v 1.0](LICENSE.md)
 
-Copyright © 2017 Oracle and/or its affiliates. All rights reserved.
+Copyright © 2017, 2021 Oracle and/or its affiliates. All rights reserved.
